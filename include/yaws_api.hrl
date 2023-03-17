@@ -100,7 +100,7 @@
                     extensions = []}).
 
 
--record(cookie, {key,
+-record(yaws_cookie, {key,
                  value,
                  quoted = false}).
 
